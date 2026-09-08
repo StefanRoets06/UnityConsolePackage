@@ -16,21 +16,26 @@ This package provides a simple console command system for Unity that allows you 
 4. Run the project and type your function name followed by any parameters specified in your function.
 
 ## Example Code
-
+```
 using UnityEngine;
 public class PlayerDebugging : MonoBehaviour
 {
     [ConsoleCommand]
     public void DebugMessage(string message)
     {
-        Debug.Log(message);
+        Debug.Log(message); 
     }
 }
+```
 
 ## Example Console Command
 
+```
 DebugMessage myMessageThatIWantToPrint
+```
 
 ## Example Console Output
 
+```
 myMessageThatIWantToPrint
+```
